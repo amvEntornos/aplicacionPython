@@ -2,6 +2,8 @@ import paho.mqtt.client as mqtt
 from elasticsearch import Elasticsearch
 import uuid
 
+
+
 elastic = Elasticsearch(
     ['search-curso-lxk7wjonxaq3rr6meyoloem4ja.us-east-2.es.amazonaws.com'],
     http_auth=('escritura', 'XIy6DE85NkdYQwzwSK#U'),
